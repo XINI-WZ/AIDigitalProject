@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:vie="UnityEngine.UIElements.Editor" editor-extension-mode="False">
+    <Style src="project:/Assets/UI/DigitalHumanChat.uss" />
+    <ui:VisualElement name="Root" class="container">
+        <!-- Wake Up Indicator (Top Right) -->
+        <ui:VisualElement name="WakeUpContainer" class="wakeup-container">
+             <ui:VisualElement name="ListeningIndicator" class="listening-indicator" />
+             <ui:Label name="WakeUpStatusLabel" text="👂 正在监听..." class="wakeup-status-label" />
+        </ui:VisualElement>
+
+        <ui:Label name="StatusLabel" text="等待语音..." class="status-label" />
+        <ui:VisualElement name="PttContainer" style="justify-content: center; align-items: center;">
+            <ui:VisualElement name="RecordingRing" class="recording-ring" style="display: none;" />
+            <ui:Button name="PttButton" text="按住 说话" class="ptt-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

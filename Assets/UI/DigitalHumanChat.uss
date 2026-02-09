@@ -1,0 +1,85 @@
+.container {
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.ptt-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgba(64, 158, 255, 0.8);
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    font-size: 24px;
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.ptt-button:hover {
+    background-color: rgba(102, 177, 255, 0.9);
+    scale: 1.1;
+}
+
+.ptt-button:active {
+    background-color: rgba(58, 142, 230, 1);
+    scale: 0.95;
+}
+
+.ptt-button.recording {
+    background-color: rgba(245, 108, 108, 0.9);
+    border-color: #ffcccc;
+}
+
+.status-label {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.recording-ring {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    border-width: 2px;
+    border-color: rgba(245, 108, 108, 0.5);
+}
+
+/* New Wake Up Indicator Styles */
+.wakeup-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    align-items: flex-end;
+}
+
+.listening-indicator {
+    width: 20px;
+    height: 20px;
+    background-color: #4cd964; /* Green */
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.listening-indicator.active {
+    background-color: #ff3b30; /* Red */
+}
+
+.listening-indicator.processing {
+    background-color: #ffcc00; /* Yellow */
+}
+
+.wakeup-status-label {
+    color: white;
+    font-size: 16px;
+    -unity-text-align: middle-right;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px 8px;
+    border-radius: 4px;
+}

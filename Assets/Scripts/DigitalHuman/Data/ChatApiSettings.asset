@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b672f003c3a76d2438ee0c00505e67ad, type: 3}
+  m_Name: ChatApiSettings
+  m_EditorClassIdentifier: 
+  llmUrl: https://open.bigmodel.cn/api/paas/v4/chat/completions
+  llmApiKey: 7cf8a0dc1c4f47f0bf34cb8e20fb3ee3.TaiCxTI1VUqMETtu
+  llmModel: glm-4-voice
+  ttsUrl: https://open.bigmodel.cn/api/paas/v4/audio/speech
+  ttsModel: glm-tts
+  ttsVoice: bella
+  asrUrl: https://open.bigmodel.cn/api/paas/v4/audio/transcriptions
+  asrModel: glm-asr-2512
+  timeout: 20
