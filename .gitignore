@@ -50,9 +50,9 @@ Assets/uLipSync/Samples/**/*.wav
 Assets/uLipSync/Samples/**/*.mp3
 Assets/uLipSync/Samples/**/*.ogg
 
-# VRM large files
-Assets/Avatar/*.vrm
-Assets/Avatar/*.fbx
+# VRM large files - COMMENTED OUT to allow model uploads
+# Assets/Avatar/*.vrm
+# Assets/Avatar/*.fbx
 
 # Build artifacts
 *.apk
